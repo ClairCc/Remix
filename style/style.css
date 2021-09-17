@@ -18,18 +18,14 @@
   width: 100%;
   height: auto;
 }
-.hero_img-container {
-  width: calc(100vw - 60px);
-  height: auto;
-}
-.hero_img {
-  height: 528px;
-  display: block;
-  background: url("../Assets/heroImage.svg");
-  background-size: cover;
+.hero_img-container,
+.hero_img-container img {
+  width: 100%;
 }
 .hero_title {
   margin: 50px 0 20px 0;
+  font-size: 3rem;
+  line-height: 4rem;
 }
 .hero .hero_title {
   text-align: center;
@@ -47,7 +43,7 @@
   height: 22px;
   width: 22px;
   background-size: cover;
-  left: 185px;
+  left: 100px;
   bottom: -20px;
   z-index: 2;
 }
@@ -76,4 +72,7 @@
 }
 .hero_p {
   margin-bottom: 25px;
+}
+main {
+  margin-bottom: 80px;
 }
