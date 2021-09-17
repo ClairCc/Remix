@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Remix</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="basicStyle.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,21 +18,54 @@
       href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <h1>Remix Light Mode</h1>
-    <h2>Remix Light Mode</h2>
-    <p>Remix Light Mode</p>
-    <button class="remix_button-img button_general">
-      <a href="">
-        <figure><img src="/" alt="" srcset="" />Hola</figure>
-      </a>
-    </button>
-    <button class="remix_button-brown button_general">
-      <a href=""> Text </a>
-    </button>
-    <button class="remix_button-action button_general">
-      <a href=""> Action </a>
-    </button>
+    <header class="header">
+      <figure class="header_figure-icon">
+        <img src="./Assets/remixLogoLightMode.svg" alt="icon" />
+      </figure>
+      <figure class="header_figure-menu">
+        <img src="./Assets/hamburgerMenu.svg" alt="menu" />
+      </figure>
+      <nav class="header_nav">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <figure>
+          <img src="" alt="" />
+          <figcaption></figcaption>
+        </figure>
+        <p></p>
+        <figure><img src="" alt="" /></figure>
+      </nav>
+    </header>
+    <main class="hero">
+      <div class="hero_img-container">
+        <span class="hero_img"> </span>
+      </div>
+      <h1 class="hero_title">
+        La transferencia del desarrollador
+        <div class="hero_focus">
+          nunca <span class="hero_focus-cursor"></span>
+          <article class="hero_focus-border hero_focus-cursor1"></article>
+          <article class="hero_focus-border hero_focus-cursor2"></article>
+          <article class="hero_focus-border hero_focus-cursor3"></article>
+          <article class="hero_focus-border hero_focus-cursor4"></article>
+        </div>
+        ha sido tan fácil.
+      </h1>
+      <p class="hero_p">
+        Remix es un complemento de Figma y Sketch que se creó pensando en los
+        desarrolladores. Cree componentes personalizados de React en segundos,
+        copie el código CSS con un solo clic y exporte sus activos sin esfuerzo.
+      </p>
+      <button class="button_figma">
+        <figure><img src="./Assets/figma-logo.svg" alt="" /></figure>
+        Get Figma Plugin
+      </button>
+    </main>
   </body>
 </html>
