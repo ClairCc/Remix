@@ -19,7 +19,9 @@
   height: auto;
 }
 .hero_img-container,
-.hero_img-container img {
+.hero_img-container img,
+.colaboraciones_img-container,
+.colaboraciones_img-container img {
   width: 100%;
 }
 .hero_title {
@@ -73,6 +75,22 @@
 .hero_p {
   margin-bottom: 25px;
 }
-main {
+main,
+.colaboraciones_img-container {
   margin-bottom: 80px;
+}
+.colaboraciones_title {
+  margin-bottom: 8px;
+}
+.colaboraciones_description {
+  margin-bottom: 24px;
+}
+.colaboraciones_leerMas {
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-decoration: underline;
+  color: #000;
+  line-height: 2.2rem;
+  cursor: pointer;
+  margin: 24px 0;
 }
