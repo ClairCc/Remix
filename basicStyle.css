@@ -35,9 +35,9 @@ h2 {
 p {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 2rem;
-  color: var(--secondBlack);
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: var(--grey);
 }
 button a {
   text-decoration: none;

@@ -94,3 +94,94 @@ main,
   cursor: pointer;
   margin: 24px 0;
 }
+.ratings p {
+  font-size: 2rem;
+}
+.rating_start .testimonial_description {
+  margin-top: 8px;
+}
+.rating_start-bold {
+  font-weight: bold;
+  color: #000;
+}
+.ratings div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.ratings div .rating_start {
+  margin-right: 10px;
+}
+.testimonial_ratings {
+  display: flex;
+  justify-content: space-between;
+}
+.testimonial_users {
+  display: flex;
+}
+.testimonial_users figure {
+  position: absolute;
+}
+.testimonial_calificacion-article {
+  background-color: #f5f6f8;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+}
+.testimonial_calificacion-descripcion,
+.testimonial_clacificacion-nombre {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.6rem;
+  margin-left: 30px;
+}
+
+.testimonial_calificacion-figure,
+.testimonial_calificacion-figure img {
+  width: 80px;
+}
+.testimonial_calificacion-figure {
+  position: absolute;
+  left: -40px;
+}
+.testimonial_clacificacion-nombre {
+  margin-top: 5px;
+}
+.testimonial_users .testimonial_users-container1 {
+  position: relative;
+  z-index: 1;
+  margin-right: 10px;
+}
+.testimonial_users-container2 {
+  right: 45px;
+  z-index: 2;
+}
+.testimonial_users-container3 {
+  right: 60px;
+  z-index: 3;
+}
+.testimonial_users-container4 {
+  z-index: 4;
+  right: 80px;
+}
+.testimonial_users-container5 {
+  z-index: 5;
+  right: 100px;
+}
+.testimonial_users-container6 {
+  z-index: 6;
+  right: 120px;
+}
+.testimonial_calificacion-article {
+  margin: 20px 0 20px 60px;
+}
+.testiomonial_clacificacion-start,
+.testiomonial_clacificacion-start img {
+  width: 15px;
+}
+.testiomonial_clacificacion-start {
+  display: flex;
+  margin-left: 30px;
+  height: 100%;
+  margin-top: 1px;
+}
