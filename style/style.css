@@ -5,6 +5,7 @@
   --grey: #595959;
   --brown: #413906;
   --secondBlack: #212429;
+  --second-grey: #9fa5b6;
 }
 .header_nav {
   display: none;
@@ -132,7 +133,6 @@ main,
 }
 .testimonial_calificacion-descripcion,
 .testimonial_clacificacion-nombre {
-  font-family: "Space Grotesk", sans-serif;
   font-size: 1.6rem;
   margin-left: 30px;
 }
@@ -231,4 +231,81 @@ main,
 .newsletter figure img {
   width: 100%;
   margin-top: 10px;
+}
+.pricing_cards {
+  margin: 40px 36px;
+}
+.pricing_cards-title {
+  font-weight: 600;
+  color: var(--grey);
+  font-size: 1.6rem;
+}
+.pricing_cards-price {
+  font-size: 5rem;
+  color: var(--grey);
+}
+.pricing_cards-price span {
+  font-size: 0.5em;
+  color: var(--second-grey);
+}
+.pricing_cards p,
+.pricing_cards_b p {
+  margin: 8px 0 20px 0;
+  line-height: 2rem;
+}
+.pricing_cards-beneficios,
+.pricing_cards-beneficios_b {
+  list-style: none;
+}
+.pricing_cards-beneficios li,
+.pricing_cards-beneficios_b li {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  color: var(--grey);
+  font-weight: 800;
+  margin: 17px 0;
+}
+.pricing_cards-beneficios li::before,
+.pricing_cards-beneficios_b li::before {
+  content: url("../Assets/Checkmark.svg");
+  margin-right: 17px;
+  align-self: center;
+  margin-top: 3px;
+}
+.pricing_cards-button {
+  width: 281px;
+  height: 60px;
+  background-color: var(--primary-yellow);
+  color: var(--black-or-White);
+  font-weight: bold;
+  font-size: 1.8rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.pricing_cards_b {
+  padding: 36px;
+  background-color: #434450;
+  border-radius: 10px;
+}
+.pricing_cards-title_b {
+  color: #c6c8cd;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.pricing_cards-price_b {
+  color: #c6c8cd;
+  font-size: 5rem;
+}
+.pricing_cards-price_b span {
+  font-size: 0.5em;
+  color: #9fa5b6;
+}
+.pricing_cards_b p {
+  color: #c6c8cd;
+}
+.pricing .pricing_cards-beneficios_b li {
+  color: #c6c8cd;
 }

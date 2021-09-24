@@ -17,6 +17,7 @@ html {
 body {
   background-color: var(--backgroundColor-ligthMode);
   margin: 0 20px 0 30px;
+  font-family: "Space Grotesk", sans-serif;
 }
 h1,
 h2 {
