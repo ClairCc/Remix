@@ -223,7 +223,7 @@ main,
   outline: none;
   border: none;
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   margin-top: 5px;
   line-height: 2rem;
 }
