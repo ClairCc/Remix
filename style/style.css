@@ -184,4 +184,51 @@ main,
   margin-left: 30px;
   height: 100%;
   margin-top: 1px;
+  margin-bottom: 30px;
+}
+.newsletter {
+  background-color: var(--primary-yellow);
+  margin: 0 -20px 0 -30px;
+  padding: 0 20px 0 30px;
+}
+.newsletter_title {
+  padding-top: 60px;
+}
+.newsletter_description {
+  color: var(--brown);
+}
+.newsletter_input {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 18px 36px;
+  width: 100%;
+  margin-top: 5px;
+  color: var(--brown);
+  font-size: 1.4rem;
+  margin-top: 16px;
+}
+.newsletter_input::placeholder {
+  font-size: 1.4rem;
+  color: var(--brown);
+  font-family: "Source Sans Pro", sans-serif;
+}
+.newsletter_send {
+  font-size: 1.4rem;
+  background-color: var(--brown);
+  border-radius: 5px;
+  width: 100%;
+  color: #fff;
+  height: 45px;
+  outline: none;
+  border: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  margin-top: 5px;
+  line-height: 2rem;
+}
+.newsletter figure,
+.newsletter figure img {
+  width: 100%;
+  margin-top: 10px;
 }
