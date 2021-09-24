@@ -186,7 +186,9 @@ main,
   height: 100%;
   margin-top: 1px;
 }
-.newsletter {
+.newsletter,
+.footer,
+.footer_social {
   background-color: var(--primary-yellow);
   margin: 0 -20px 0 -30px;
   padding: 0 20px 0 30px;
@@ -194,7 +196,8 @@ main,
 .newsletter_title {
   padding-top: 60px;
 }
-.newsletter_description {
+.newsletter_description,
+.footer_description {
   color: var(--brown);
 }
 .newsletter_input {
@@ -308,4 +311,47 @@ main,
 }
 .pricing .pricing_cards-beneficios_b li {
   color: #c6c8cd;
+}
+.header_figure-icon {
+  padding: 20px 0 16px 0;
+}
+.footer_documentacion {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.footer_documentacion-supported {
+  font-family: "Inter", sans-serif;
+  width: 50%;
+  margin-top: 10px;
+}
+.footer_documentacion-supported h4 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.footer_documentacion-supported ul li {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin: 10px 0;
+  color: var(--brown);
+}
+footer .footer_social {
+  background-color: var(--brown);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+}
+.footer_social p {
+  color: var(--primary-yellow);
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.footer_social-containerimg {
+  display: flex;
+}
+.footer_social-containerimg figure {
+  margin: 0 5px;
 }
