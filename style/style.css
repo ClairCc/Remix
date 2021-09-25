@@ -91,7 +91,7 @@ main,
   font-weight: bold;
   font-size: 1.8rem;
   text-decoration: underline;
-  color: #000;
+  color: var(--black-or-White);
   line-height: 2.2rem;
   cursor: pointer;
   margin: 24px 0;
@@ -104,7 +104,7 @@ main,
 }
 .rating_start-bold {
   font-weight: bold;
-  color: #000;
+  color: var(--black-or-White);
 }
 .ratings div {
   display: flex;
@@ -196,6 +196,7 @@ main,
 }
 .newsletter_title {
   padding-top: 60px;
+  color: #000;
 }
 .newsletter_description,
 .footer_description {
@@ -431,4 +432,30 @@ footer .footer_social {
   width: 100%;
   display: flex;
   justify-content: flex-end;
+}
+.header_figure-menu-dm,
+.nav_close-dm {
+  filter: invert(1);
+}
+.nav_container-dm {
+  background-color: #000;
+}
+.nav_container-dm .header_nav-icons-sun {
+  background-color: transparent;
+  box-shadow: none;
+}
+.nav_container-dm .header_nav-icons-sun img {
+  filter: contrast(0.5);
+}
+.nav_container-dm .header_nav-icons-sun figcaption {
+  color: #a1a5ac;
+}
+.nav_container-dm .header_nav-icons-moon {
+  color: white;
+  border-radius: 10px;
+  background-color: #494a51;
+  color: var(--black-or-White);
+}
+.nav_container-dm .header_nav-icons-moon img {
+  filter: grayscale(1);
 }
