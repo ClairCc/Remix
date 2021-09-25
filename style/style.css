@@ -14,6 +14,7 @@
   margin: 40px 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .hero {
   width: 100%;
@@ -354,4 +355,19 @@ footer .footer_social {
 }
 .footer_social-containerimg figure {
   margin: 0 5px;
+}
+.header_figure-menu-off {
+  display: none;
+}
+.header_nav-on {
+  display: block;
+  position: fixed;
+  width: 70vw;
+  height: 100vh;
+  background-color: #1f2227;
+  justify-self: flex-end;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  padding: 20px;
 }
