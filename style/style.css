@@ -364,10 +364,11 @@ footer .footer_social {
   position: fixed;
   width: 70vw;
   height: 100vh;
-  background-color: #1f2227;
+  background-color: var(--backgroundColor-ligthMode);
   justify-self: flex-end;
   top: 0;
   right: 0;
   z-index: 100;
   padding: 20px;
+  box-shadow: -4px 0px 25px 0px rgba(0, 0, 0, 0.75);
 }
