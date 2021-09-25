@@ -1,0 +1,57 @@
+.testimonial_calificacion-article {
+  width: 55%;
+}
+.testimonial_calificacion-article:last-child {
+  align-self: flex-end;
+}
+.testimonial_calificacion-container div {
+  display: flex;
+  flex-direction: column;
+}
+.newsletter figure {
+  width: 100%;
+}
+.newsletter figure img {
+  width: 60%;
+}
+.newsletter figure {
+  display: flex;
+  justify-content: center;
+}
+.newsletter_buttons-sends .newsletter_input,
+.newsletter_buttons-sends .newsletter_send {
+  width: 45%;
+  margin: 0 4px;
+}
+.pricing,
+.pricing_cards-beneficios_b {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pricing_cards-order1 {
+  order: 1;
+}
+.pricing_cards-order2 {
+  order: 2;
+}
+.pricing_cards-order2,
+.pricing_cards-order1 {
+  width: 39%;
+}
+.pricing_cards-order3 {
+  width: 100%;
+  order: 3;
+  margin: 15px 0;
+}
+.pricing_cards-button {
+  width: 100%;
+}
+
+.pricing_cards-beneficios_b li {
+  width: 50%;
+  margin: 10px 0;
+}
+.footer_documentacion {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}

@@ -1,0 +1,32 @@
+body {
+  margin: 0 150px;
+}
+.newsletter,
+.footer,
+.footer_social {
+  background-color: var(--primary-yellow);
+  margin: 0 -150px;
+  padding: 0 150px;
+}
+.pricing {
+  flex-direction: row;
+  width: 100%;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+.pricing_cards {
+  width: 23%;
+  max-width: 500px;
+}
+.pricing_cards-beneficios_b {
+  display: block;
+  width: 100%;
+}
+.pricing_cards-beneficios_b li {
+  width: 100%;
+}
+.pricing_cards_b {
+  width: 35%;
+  order: 2;
+  max-width: 500px;
+}

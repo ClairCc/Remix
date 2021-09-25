@@ -278,7 +278,8 @@ main,
   margin-top: 3px;
 }
 .pricing_cards-button {
-  width: 281px;
+  margin: 0 auto;
+  width: 70%;
   height: 60px;
   background-color: var(--primary-yellow);
   color: var(--black-or-White);
@@ -288,6 +289,9 @@ main,
   border: none;
   border-radius: 5px;
   font-family: "Space Grotesk", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .pricing_cards_b {
   padding: 36px;

@@ -17,6 +17,21 @@
     />
     <link rel="stylesheet" href="./basicStyle.css" />
     <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="./style/tablet.css"
+      media="(min-width: 700px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./style/desktop.css"
+      media="(min-width: 1025px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./style/desktopExtra.css"
+      media="(min-width: 1280px)"
+    />
   </head>
   <body>
     <header class="header">
@@ -56,51 +71,56 @@
       <figure class="hero_img-container">
         <img src="./Assets/heroImage.svg" alt="" class="hero_img" />
       </figure>
-      <h1 class="hero_title">
-        La transferencia del desarrollador
-        <div class="hero_focus">
-          nunca <span class="hero_focus-cursor"></span>
-          <article class="hero_focus-border hero_focus-cursor1"></article>
-          <article class="hero_focus-border hero_focus-cursor2"></article>
-          <article class="hero_focus-border hero_focus-cursor3"></article>
-          <article class="hero_focus-border hero_focus-cursor4"></article>
-        </div>
-        ha sido tan fácil.
-      </h1>
-      <p class="hero_p">
-        Remix es un complemento de Figma y Sketch que se creó pensando en los
-        desarrolladores. Cree componentes personalizados de React en segundos,
-        copie el código CSS con un solo clic y exporte sus activos sin esfuerzo.
-      </p>
-      <button class="button_figma">
-        <figure>
-          <img src="./Assets/figma-logo.svg" alt="" />
-        </figure>
-        Get Figma Plugin
-      </button>
+      <article class="hero_section-two">
+        <h1 class="hero_title">
+          La transferencia del desarrollador
+          <div class="hero_focus">
+            nunca <span class="hero_focus-cursor"></span>
+            <article class="hero_focus-border hero_focus-cursor1"></article>
+            <article class="hero_focus-border hero_focus-cursor2"></article>
+            <article class="hero_focus-border hero_focus-cursor3"></article>
+            <article class="hero_focus-border hero_focus-cursor4"></article>
+          </div>
+          ha sido tan fácil.
+        </h1>
+        <p class="hero_p">
+          Remix es un complemento de Figma y Sketch que se creó pensando en los
+          desarrolladores. Cree componentes personalizados de React en segundos,
+          copie el código CSS con un solo clic y exporte sus activos sin
+          esfuerzo.
+        </p>
+        <button class="button_figma">
+          <figure>
+            <img src="./Assets/figma-logo.svg" alt="" />
+          </figure>
+          Get Figma Plugin
+        </button>
+      </article>
     </main>
     <section class="colaboraciones">
-      <h2 class="colaboraciones_title">
-        La colaboración nunca ha sido tan fácil.
-      </h2>
-      <p class="colaboraciones_description">
-        Con Remix, podrá colaborar activamente con los desarrolladores en tiempo
-        real. No más correos electrónicos de ida y vuelta y mensajes de Slack
-        para obtener ese diseño perfecto.
-      </p>
-      <p class="colaboraciones_leerMas">Leer →</p>
+      <article class="colaboraciones_container">
+        <h2 class="colaboraciones_title">
+          La colaboración nunca ha sido tan fácil.
+        </h2>
+        <p class="colaboraciones_description">
+          Con Remix, podrá colaborar activamente con los desarrolladores en
+          tiempo real. No más correos electrónicos de ida y vuelta y mensajes de
+          Slack para obtener ese diseño perfecto.
+        </p>
+        <p class="colaboraciones_leerMas">Leer →</p>
+      </article>
       <figure class="colaboraciones_img-container">
         <img src="./Assets/Collaboration.png" alt="" />
       </figure>
     </section>
     <section class="testimonial">
-      <h2 class="testimonial_title">Que dicen nuestros usuarios</h2>
-      <p class="testimonial_description">
-        Hemos cultivado una comunidad creciente de desarrolladores y eso nos
-        importa. Vea lo que dicen nuestros usuarios.
-      </p>
-      <section>
-        <article class="testimonial_ratings-container">
+      <article class="testimonial_container-idk">
+        <h2 class="testimonial_title">Que dicen nuestros usuarios</h2>
+        <p class="testimonial_description">
+          Hemos cultivado una comunidad creciente de desarrolladores y eso nos
+          importa. Vea lo que dicen nuestros usuarios.
+        </p>
+        <article>
           <div class="testimonial_ratings">
             <section class="ratings">
               <div>
@@ -151,78 +171,82 @@
             </section>
           </div>
         </article>
-        <article class="testimonial_calificacion-container">
-          <div>
-            <article class="testimonial_calificacion-article">
-              <figure class="testimonial_calificacion-figure">
-                <img src="Assets/TestimonialAvatar1.png" alt="" />
+      </article>
+      <article
+        class="testimonial_calificacion-container testimonial_container-idk"
+      >
+        <div>
+          <article class="testimonial_calificacion-article">
+            <figure class="testimonial_calificacion-figure">
+              <img src="Assets/TestimonialAvatar1.png" alt="" />
+            </figure>
+            <div class="testimonial_calificacion-descripcion">
+              <p class="testimonial_calificacion-descripcion">
+                "desarrolladores, ya no necesitan pasar horas traduciendo el
+                diseño."
+              </p>
+              <h3 class="testimonial_clacificacion-nombre">Jesse Hendricks</h3>
+              <figure class="testiomonial_clacificacion-start">
+                <img src="./Assets/start.svg" alt="" /><img
+                  src="./Assets/start.svg"
+                  alt=""
+                /><img src="./Assets/start.svg" alt="" /><img
+                  src="./Assets/start.svg"
+                  alt=""
+                /><img src="./Assets/start.svg" alt="" />
               </figure>
-              <div class="testimonial_calificacion-descripcion">
-                <p class="testimonial_calificacion-descripcion">
-                  "desarrolladores, ya no necesitan pasar horas traduciendo el
-                  diseño."
-                </p>
-                <h3 class="testimonial_clacificacion-nombre">
-                  Jesse Hendricks
-                </h3>
-                <figure class="testiomonial_clacificacion-start">
-                  <img src="./Assets/start.svg" alt="" /><img
-                    src="./Assets/start.svg"
-                    alt=""
-                  /><img src="./Assets/start.svg" alt="" /><img
-                    src="./Assets/start.svg"
-                    alt=""
-                  /><img src="./Assets/start.svg" alt="" />
-                </figure>
-              </div>
-            </article>
-            <article class="testimonial_calificacion-article">
-              <figure class="testimonial_calificacion-figure">
-                <img src="./Assets/TestimonialAvatar2.png" alt="" />
+            </div>
+          </article>
+          <article class="testimonial_calificacion-article">
+            <figure class="testimonial_calificacion-figure">
+              <img src="./Assets/TestimonialAvatar2.png" alt="" />
+            </figure>
+            <div class="testimonial_calificacion-descripcion">
+              <p class="testimonial_calificacion-descripcion">
+                "Remix ha sido un salvavidas cuando se trata de traspaso de
+                desarrolladores."
+              </p>
+              <h3 class="testimonial_clacificacion-nombre">Mia Andrews</h3>
+              <figure class="testiomonial_clacificacion-start">
+                <img src="./Assets/start.svg" alt="" /><img
+                  src="./Assets/start.svg"
+                  alt=""
+                /><img src="./Assets/start.svg" alt="" /><img
+                  src="./Assets/start.svg"
+                  alt=""
+                /><img src="./Assets/start.svg" alt="" />
               </figure>
-              <div class="testimonial_calificacion-descripcion">
-                <p class="testimonial_calificacion-descripcion">
-                  "Remix ha sido un salvavidas cuando se trata de traspaso de
-                  desarrolladores."
-                </p>
-                <h3 class="testimonial_clacificacion-nombre">Mia Andrews</h3>
-                <figure class="testiomonial_clacificacion-start">
-                  <img src="./Assets/start.svg" alt="" /><img
-                    src="./Assets/start.svg"
-                    alt=""
-                  /><img src="./Assets/start.svg" alt="" /><img
-                    src="./Assets/start.svg"
-                    alt=""
-                  /><img src="./Assets/start.svg" alt="" />
-                </figure>
-              </div>
-            </article>
-          </div>
-        </article>
-      </section>
+            </div>
+          </article>
+        </div>
+      </article>
     </section>
     <section class="newsletter">
-      <h2 class="newsletter_title">
-        Obtenga la guía de transferencia definitiva para desarrolladores.
-      </h2>
-      <p class="newsletter_description">
-        A guide with 120+ hours worth of content to guide you on how to
-        perfectly hand over your designs to your developers. Best part? It’s
-        completely free.
-      </p>
-      <form class="newsletter_buttons-sends" action="">
-        <input
-          type="email"
-          class="newsletter_input"
-          placeholder="Ingresa tu email"
-          id="email"
-          name="email"
-        /><button type="submit" class="newsletter_send">Envíame la guía</button>
-      </form>
+      <article class="newsletter_container">
+        <h2 class="newsletter_title">
+          Obtenga la guía de transferencia definitiva para desarrolladores.
+        </h2>
+        <p class="newsletter_description">
+          A guide with 120+ hours worth of content to guide you on how to
+          perfectly hand over your designs to your developers. Best part? It’s
+          completely free.
+        </p>
+        <form class="newsletter_buttons-sends" action="">
+          <input
+            type="email"
+            class="newsletter_input"
+            placeholder="Ingresa tu email"
+            id="email"
+            name="email"
+          /><button type="submit" class="newsletter_send">
+            Envíame la guía
+          </button>
+        </form>
+      </article>
       <figure><img src="./Assets/Illustrations.png" alt="" /></figure>
     </section>
     <section class="pricing">
-      <article class="pricing_cards">
+      <article class="pricing_cards pricing_cards-order1">
         <h3 class="pricing_cards-title">Basico</h3>
         <h2 class="pricing_cards-price">$39<span>/mes</span></h2>
         <p>
@@ -237,7 +261,7 @@
         </ul>
         <button class="pricing_cards-button">Suscribirse</button>
       </article>
-      <article class="pricing_cards_b">
+      <article class="pricing_cards_b pricing_cards-order3">
         <h3 class="pricing_cards-title_b">Starter</h3>
         <h2 class="pricing_cards-price_b">$59<span>/mes</span></h2>
         <p>Adecuado para empresas medianas con muchas transferencias.</p>
@@ -249,7 +273,7 @@
         </ul>
         <button class="pricing_cards-button">Suscribirse</button>
       </article>
-      <article class="pricing_cards">
+      <article class="pricing_cards pricing_cards-order2">
         <h3 class="pricing_cards-title">Pro</h3>
         <h2 class="pricing_cards-price">$129<span>/mes</span></h2>
         <p>Adecuado para empresas con traspasos diarios de desarrolladores.</p>
@@ -263,14 +287,17 @@
       </article>
     </section>
     <footer class="footer">
-      <figure class="header_figure-icon">
-        <img src="./Assets/Footer-logo.svg" alt="icon" />
-      </figure>
-      <p class="footer_description">
-        Remix es un complemento de Figma y Sketch que se creó pensando en los
-        desarrolladores. Cree componentes personalizados de React en segundos,
-        copie el código CSS con un solo clic y exporte sus activos sin esfuerzo.
-      </p>
+      <section class="footer_section1">
+        <figure class="header_figure-icon">
+          <img src="./Assets/Footer-logo.svg" alt="icon" />
+        </figure>
+        <p class="footer_description">
+          Remix es un complemento de Figma y Sketch que se creó pensando en los
+          desarrolladores. Cree componentes personalizados de React en segundos,
+          copie el código CSS con un solo clic y exporte sus activos sin
+          esfuerzo.
+        </p>
+      </section>
       <section class="footer_documentacion">
         <article class="footer_documentacion-supported">
           <h4>Soporte</h4>
