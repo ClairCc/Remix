@@ -11,6 +11,7 @@ let blackColors = [
   "#434450",
   "#DFE0E2",
 ];
+const heroimg = document.getElementById("img2");
 const root = document.documentElement;
 const navContainer = document.getElementById("header_nav-icons");
 const moon = document.getElementById("moon");
@@ -29,6 +30,7 @@ closeMenu.addEventListener("click", function () {
 const changeColorsToBlack = () => {
   document.getElementById("img1").src =
     "https://raw.githubusercontent.com/ClairCc/Remix/96e8525574a88542522e755fa97bfdb49740a284/Assets/Remix-logo.svg";
+  heroimg.src = "../Assets/heroDMMM.svg";
   menu.classList.add("header_figure-menu-dm");
   closeMenu.classList.add("nav_close-dm");
   root.style.setProperty("--backgroundColor-ligthMode", blackColors[0]);
