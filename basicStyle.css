@@ -69,3 +69,7 @@ ul li {
   height: 24px;
   margin-right: 8px;
 }
+#moon,
+#ligthMode {
+  cursor: pointer;
+}

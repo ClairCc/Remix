@@ -6,6 +6,9 @@
   --brown: #413906;
   --secondBlack: #212429;
   --second-grey: #9fa5b6;
+  --learnMore: #000;
+  --testimonials: #f5f6f8;
+  --testimonials-description: #70757c;
 }
 .header_nav {
   display: none;
@@ -91,7 +94,7 @@ main,
   font-weight: bold;
   font-size: 1.8rem;
   text-decoration: underline;
-  color: var(--black-or-White);
+  color: var(--learnMore);
   line-height: 2.2rem;
   cursor: pointer;
   margin: 24px 0;
@@ -125,7 +128,7 @@ main,
   position: absolute;
 }
 .testimonial_calificacion-article {
-  background-color: #f5f6f8;
+  background-color: var(--testimonials);
   display: flex;
   align-items: center;
   border-radius: 10px;
@@ -137,7 +140,12 @@ main,
   font-size: 1.6rem;
   margin-left: 30px;
 }
-
+.testimonial_calificacion-descripcion {
+  padding: 4px;
+}
+.testimonial_calificacion-descripcion {
+  color: var(--testimonials-description);
+}
 .testimonial_calificacion-figure,
 .testimonial_calificacion-figure img {
   width: 80px;
@@ -148,6 +156,9 @@ main,
 }
 .testimonial_clacificacion-nombre {
   margin-top: 5px;
+}
+.testimonial_clacificacion-nombre {
+  color: var(--black-or-White);
 }
 .testimonial_users .testimonial_users-container1 {
   position: relative;
@@ -283,7 +294,7 @@ main,
   width: 70%;
   height: 60px;
   background-color: var(--primary-yellow);
-  color: var(--black-or-White);
+  color: #000;
   font-weight: bold;
   font-size: 1.8rem;
   outline: none;
