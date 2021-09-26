@@ -30,7 +30,7 @@ closeMenu.addEventListener("click", function () {
 const changeColorsToBlack = () => {
   document.getElementById("img1").src =
     "https://raw.githubusercontent.com/ClairCc/Remix/96e8525574a88542522e755fa97bfdb49740a284/Assets/Remix-logo.svg";
-  heroimg.src = "../Assets/heroDMMM.svg";
+  heroimg.src = "../Assets/heroDM.svg";
   menu.classList.add("header_figure-menu-dm");
   closeMenu.classList.add("nav_close-dm");
   root.style.setProperty("--backgroundColor-ligthMode", blackColors[0]);
@@ -45,6 +45,7 @@ const changeColorsToBlack = () => {
 const changeColorsToWhite = () => {
   document.getElementById("img1").src =
     "https://raw.githubusercontent.com/ClairCc/Remix/96e8525574a88542522e755fa97bfdb49740a284/Assets/remixLogoLightMode.svg";
+  heroimg.src = "../Assets/heroImage.svg";
   root.style.setProperty("--backgroundColor-ligthMode", ligthColors[0]);
   menu.classList.remove("header_figure-menu-dm");
   closeMenu.classList.remove("nav_close-dm");
