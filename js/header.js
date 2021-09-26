@@ -30,7 +30,8 @@ closeMenu.addEventListener("click", function () {
 const changeColorsToBlack = () => {
   document.getElementById("img1").src =
     "https://raw.githubusercontent.com/ClairCc/Remix/96e8525574a88542522e755fa97bfdb49740a284/Assets/Remix-logo.svg";
-  heroimg.src = "https://raw.githubusercontent.com/ClairCc/Remix/f7d75916774a902d332bbe9435f13fbeea2c0748/Assets/heroDM.svg;
+  heroimg.src =
+    "https://raw.githubusercontent.com/ClairCc/Remix/f7d75916774a902d332bbe9435f13fbeea2c0748/Assets/heroDM.svg";
   menu.classList.add("header_figure-menu-dm");
   closeMenu.classList.add("nav_close-dm");
   root.style.setProperty("--backgroundColor-ligthMode", blackColors[0]);
@@ -45,7 +46,8 @@ const changeColorsToBlack = () => {
 const changeColorsToWhite = () => {
   document.getElementById("img1").src =
     "https://raw.githubusercontent.com/ClairCc/Remix/96e8525574a88542522e755fa97bfdb49740a284/Assets/remixLogoLightMode.svg";
-  heroimg.src = "https://raw.githubusercontent.com/ClairCc/Remix/f7d75916774a902d332bbe9435f13fbeea2c0748/Assets/heroImage.svg";
+  heroimg.src =
+    "https://raw.githubusercontent.com/ClairCc/Remix/f7d75916774a902d332bbe9435f13fbeea2c0748/Assets/heroImage.svg";
   root.style.setProperty("--backgroundColor-ligthMode", ligthColors[0]);
   menu.classList.remove("header_figure-menu-dm");
   closeMenu.classList.remove("nav_close-dm");
