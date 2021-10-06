@@ -2,7 +2,7 @@ const menu = document.getElementById("menu");
 const header = document.getElementById("header_nav");
 const closeMenu = document.getElementById("nav_close-container");
 const ligthMode = document.getElementById("ligthMode");
-let ligthColors = ["#fff", "#000", "#595959", "#F5F6F8", "#70757C"];
+let ligthColors = ["#fff", "#000", "#595959", "#F5F6F8", "#505459"];
 let blackColors = [
   "#1E2025",
   "#fff",
@@ -15,6 +15,10 @@ const heroimg = document.getElementById("img2");
 const root = document.documentElement;
 const navContainer = document.getElementById("header_nav-icons");
 const moon = document.getElementById("moon");
+const heroBlack =
+  "https://raw.githubusercontent.com/ClairCc/Remix/f7d75916774a902d332bbe9435f13fbeea2c0748/Assets/heroDM.svg";
+const iconBlack =
+  "https://raw.githubusercontent.com/ClairCc/Remix/96e8525574a88542522e755fa97bfdb49740a284/Assets/Remix-logo.svg";
 
 menu.addEventListener("click", function () {
   menu.classList.add("header_figure-menu-off");
@@ -28,10 +32,8 @@ closeMenu.addEventListener("click", function () {
 });
 
 const changeColorsToBlack = () => {
-  document.getElementById("img1").src =
-    "https://raw.githubusercontent.com/ClairCc/Remix/96e8525574a88542522e755fa97bfdb49740a284/Assets/Remix-logo.svg";
-  heroimg.src =
-    "https://raw.githubusercontent.com/ClairCc/Remix/f7d75916774a902d332bbe9435f13fbeea2c0748/Assets/heroDM.svg";
+  document.getElementById("img1").src = iconBlack;
+  heroimg.src = heroBlack;
   menu.classList.add("header_figure-menu-dm");
   closeMenu.classList.add("nav_close-dm");
   root.style.setProperty("--backgroundColor-ligthMode", blackColors[0]);
@@ -54,8 +56,9 @@ const changeColorsToWhite = () => {
   root.style.setProperty("--black-or-White", ligthColors[1]);
   root.style.setProperty("--grey", ligthColors[2]);
   navContainer.classList.remove("nav_container-dm");
-  root.style.setProperty("--testimonials", blackColors[3]);
+  root.style.setProperty("--testimonials", ligthColors[3]);
   root.style.setProperty("--testimonials-description", blackColors[4]);
+  root.style.setProperty("--learnMore", ligthColors[1]);
 };
 
 ligthMode.addEventListener("click", changeColorsToWhite);

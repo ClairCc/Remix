@@ -5,6 +5,10 @@
   --grey: #595959;
   --brown: #413906;
   --secondBlack: #212429;
+  --second-grey: #9fa5b6;
+  --learnMore: #000;
+  --testimonials: #f5f6f8;
+  --testimonials-description: #70757c;
 }
 * {
   margin: 0;
@@ -75,4 +79,117 @@ ul li {
 }
 button {
   cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+.header_nav {
+  display: none;
+}
+.header {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_figure-icon {
+  padding: 20px 0 16px 0;
+}
+.header_figure-menu-off {
+  display: none;
+}
+.header_nav-on {
+  display: flex;
+  position: fixed;
+  width: 70vw;
+  height: 100vh;
+  background-color: var(--backgroundColor-ligthMode);
+  top: 0;
+  right: 0;
+  z-index: 100;
+  padding: 20px;
+  box-shadow: -4px 0px 25px 0px rgba(0, 0, 0, 0.75);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header_nav-on ul {
+  display: flex;
+  height: 30%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header_nav-on,
+.header_nav-on p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--grey);
+  text-align: center;
+  align-items: center;
+}
+.header_nav-on figure img {
+  width: 18px;
+}
+.header_nav-icons {
+  width: 210px;
+  height: 60px;
+  background-color: #f5f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.header_nav-icons-sun {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background-color: #fff;
+  color: var(--black-or-White);
+}
+.header_nav-icons-sun img {
+  filter: brightness(0);
+  margin-right: 6px;
+}
+.header_nav-icons-moon img {
+  filter: brightness(0.4);
+  margin-right: 6px;
+}
+
+.header_nav-icons-sun,
+.header_nav-icons-moon {
+  display: flex;
+  width: 90px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.nav_close-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.header_figure-menu-dm,
+.nav_close-dm {
+  filter: invert(1);
+}
+.nav_container-dm {
+  background-color: #000;
+}
+.nav_container-dm .header_nav-icons-sun {
+  background-color: transparent;
+  box-shadow: none;
+}
+.nav_container-dm .header_nav-icons-sun img {
+  filter: contrast(0.5);
+}
+.nav_container-dm .header_nav-icons-sun figcaption {
+  color: #a1a5ac;
+}
+.nav_container-dm .header_nav-icons-moon {
+  color: white;
+  border-radius: 10px;
+  background-color: #494a51;
+  color: var(--black-or-White);
+}
+.nav_container-dm .header_nav-icons-moon img {
+  filter: grayscale(1);
 }

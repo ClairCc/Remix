@@ -36,7 +36,6 @@
 }
 .header .button_figma {
   display: flex;
-  width: 240px;
   justify-content: flex-end;
 }
 .header p {
@@ -116,4 +115,12 @@
 }
 .testimonial_calificacion-article {
   width: 80%;
+}
+.footer_documentacion h3 {
+  font-size: 2rem;
+}
+.pricing_cards-order3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: inherit;
 }
