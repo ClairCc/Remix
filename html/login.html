@@ -40,27 +40,77 @@
       </nav>
     </header>
     <main class="hero">
-      <figure><img src="" alt="" /></figure>
+      <figure><img src="../Assets/remixLogoLightMode.svg" alt="" /></figure>
       <h1>Configure su entorno Remix</h1>
-      <p>
+      <p class="hero_description">
         Esto tomará menos de un minuto, usamos esta información para
         personalizar Remix para usted;
       </p>
-      <article>
-        <div>
+      <article class="hero-container">
+        <div class="hero_type">
           <h2>Uso Personal</h2>
           <input type="checkbox" />
         </div>
         <p>Estoy usando esto para un equipo de &#60; 2.</p>
       </article>
-      <article>
-        <div>
+      <article class="hero-container">
+        <div class="hero_type">
           <h2>Uso Corporativo</h2>
           <input type="checkbox" />
         </div>
         <p>Estoy usando esto para un equipo de &#62; 2.</p>
       </article>
+      <button class="hero_back button_figma">Anterior</button
+      ><button class="hero_next button_figma">Siguiente</button>
+      <article class="copy">© 2021 Remix. All Rights Reserved.</article>
     </main>
+    <main class="hero">
+      <section class="hero_header">
+        <figure><img src="../Assets/remixLogoLightMode.svg" alt="" /></figure>
+        <p>Paso 2/3</p>
+      </section>
+      <h1>Vincula tu cuenta de Figma</h1>
+      <p class="hero_description">
+        Usamos su cuenta para mostrar sus proyectos en el panel principal del
+        complemento.
+      </p>
+      <button class="button_figma button_figma-register">
+        <figure><img src="../Assets/figma-logo.svg" alt="" /></figure>
+        Vincular cuenta Figma
+      </button>
+      <button class="hero_back button_figma">Anterior</button
+      ><button class="hero_next button_figma">Siguiente</button>
+      <article class="copy">© 2021 Remix. All Rights Reserved.</article>
+    </main>
+    <main class="hero">
+      <section class="hero_header">
+        <figure><img src="../Assets/remixLogoLightMode.svg" alt="" /></figure>
+        <p>Paso 3/3</p>
+      </section>
+      <h1>Confirme su dirección de correo electrónico</h1>
+      <p class="hero_description">
+        Ingrese su dirección de correo electrónico a continuación y haga clic en
+        Enviar código para verificarlo.
+      </p>
+      <form action="">
+        <label for="email">
+          <input
+            class="hero_input"
+            type="email"
+            id="email"
+            placeholder="Ingresa tu email"
+          />
+        </label>
+      </form>
+      <button class="button_figma">
+        <figure><img src="../Assets/Send.svg" alt="" /></figure>
+        Enviar codigo
+      </button>
+      <button class="hero_back button_figma">Anterior</button
+      ><button class="hero_next button_figma">Siguiente</button>
+      <article class="copy">© 2021 Remix. All Rights Reserved.</article>
+    </main>
+
     <script src="../js/login.js"></script>
   </body>
 </html>

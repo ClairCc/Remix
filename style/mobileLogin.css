@@ -6,14 +6,17 @@
   --brown: #413906;
   --secondBlack: #212429;
   --second-grey: #9fa5b6;
+  --backgroundColor-hero: #f5f6f8;
+}
+html {
+  font-size: 62.5%;
 }
 
 .header_nav {
   display: flex;
-  grid-template-columns: none;
   width: auto;
 }
-.header_back figure {
+.header_back {
   width: 42px;
   height: 42px;
   background-color: #41424e;
@@ -21,4 +24,89 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: var(--backgroundColor-hero);
+  border-radius: 8px;
+  padding: 32px;
+}
+.hero figure {
+  align-self: flex-start;
+}
+.hero h1 {
+  font-size: 1.8rem;
+  line-height: 22.97px;
+  text-align: center;
+  padding: 32px 0 8px 0;
+}
+.hero_description {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.hero-container {
+  background: var(--backgroundColor-ligthMode);
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 16px;
+}
+.hero-container h2 {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.hero_type {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-container p {
+  font-size: 1.6rem;
+}
+.hero_next,
+.hero_back {
+  cursor: pointer;
+}
+.hero_next {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.hero_back {
+  background: transparent;
+}
+.copy {
+  margin: 41px 0 30px 0;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #595959;
+}
+.hero_header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: #595959;
+  align-items: center;
+}
+.button_figma-register {
+  width: 100%;
+  font-size: 1.4rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero_input {
+  outline: none;
+  border: none;
+  background: #ffffff;
+  padding: 18px 36px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+.hero_input::placeholder {
+  color: #413906;
+  font-size: 1.6rem;
 }
