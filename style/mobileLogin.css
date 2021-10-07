@@ -110,3 +110,7 @@ html {
   color: #413906;
   font-size: 1.6rem;
 }
+.hero2,
+.hero3 {
+  display: none;
+}
