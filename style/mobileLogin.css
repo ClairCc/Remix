@@ -126,6 +126,11 @@ html {
   flex-direction: column;
   align-items: center;
 }
+.send_form .button_figma {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
 @media (min-width: 375px) {
   .button_figma-register {
     font-size: 1.8rem;
