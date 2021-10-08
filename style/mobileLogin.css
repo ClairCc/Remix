@@ -2,11 +2,14 @@
   --backgroundColor-ligthMode: #fff;
   --primary-yellow: #f7ca18;
   --black-or-White: #000;
+  --black-or-Whiteb: #000;
   --grey: #595959;
   --brown: #413906;
   --secondBlack: #212429;
   --second-grey: #9fa5b6;
   --backgroundColor-hero: #f5f6f8;
+  --grey-Black: #41424e;
+  --copy: #595959;
 }
 html {
   font-size: 62.5%;
@@ -19,7 +22,7 @@ html {
 .header_back {
   width: 42px;
   height: 42px;
-  background-color: #41424e;
+  background-color: var(--grey-Black);
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -69,6 +72,9 @@ html {
 .hero_back {
   cursor: pointer;
 }
+.back {
+  color: var(--black-or-Whiteb);
+}
 .hero_next {
   width: 100%;
   text-align: center;
@@ -81,7 +87,7 @@ html {
   margin: 41px 0 30px 0;
   font-size: 1.8rem;
   text-align: center;
-  color: #595959;
+  color: var(--copy);
 }
 .hero_header {
   display: flex;

@@ -10,10 +10,15 @@ let blackColors = [
   "#f6ca18",
   "#434450",
   "#DFE0E2",
+  "#41424e",
+  "#C6C8CD",
 ];
 const back = document.getElementsByClassName("back");
 const next = document.getElementsByClassName("next");
 const hero = document.getElementsByClassName("hero");
+
+const iconBlack =
+  "https://raw.githubusercontent.com/ClairCc/Remix/96e8525574a88542522e755fa97bfdb49740a284/Assets/Remix-logo.svg";
 
 const foundDisplay = (object) => {
   let mostrar = window.getComputedStyle(object);
@@ -30,23 +35,37 @@ const navContainer = document.getElementById("header_nav-icons");
 const moon = document.getElementById("moon");
 
 const changeColorsToBlack = () => {
+  document.getElementById("img1").src = iconBlack;
+  document.getElementById("img2").src = iconBlack;
+  document.getElementById("img3").src = iconBlack;
   root.style.setProperty("--backgroundColor-ligthMode", blackColors[0]);
   root.style.setProperty("--black-or-White", blackColors[1]);
-  root.style.setProperty("--grey", blackColors[2]);
+  root.style.setProperty("--grey", blackColors[7]);
   navContainer.classList.add("nav_container-dm");
   root.style.setProperty("--learnMore", blackColors[3]);
   root.style.setProperty("--testimonials", blackColors[4]);
   root.style.setProperty("--testimonials-description", blackColors[5]);
+  root.style.setProperty("--backgroundColor-hero", blackColors[6]);
+  root.style.setProperty("--black-or-Whiteb", blackColors[3]);
+  root.style.setProperty("--copy", blackColors[7]);
 };
 
 const changeColorsToWhite = () => {
+  document.getElementById("img1").src =
+    "https://raw.githubusercontent.com/ClairCc/Remix/96e8525574a88542522e755fa97bfdb49740a284/Assets/remixLogoLightMode.svg";
+  document.getElementById("img2").src =
+    "https://raw.githubusercontent.com/ClairCc/Remix/96e8525574a88542522e755fa97bfdb49740a284/Assets/remixLogoLightMode.svg";
+  document.getElementById("img3").src =
+    "https://raw.githubusercontent.com/ClairCc/Remix/96e8525574a88542522e755fa97bfdb49740a284/Assets/remixLogoLightMode.svg";
   root.style.setProperty("--backgroundColor-ligthMode", ligthColors[0]);
-
   root.style.setProperty("--black-or-White", ligthColors[1]);
   root.style.setProperty("--grey", ligthColors[2]);
   navContainer.classList.remove("nav_container-dm");
   root.style.setProperty("--testimonials", blackColors[3]);
   root.style.setProperty("--testimonials-description", blackColors[4]);
+  root.style.setProperty("--backgroundColor-hero", ligthColors[3]);
+  root.style.setProperty("--black-or-Whiteb", ligthColors[1]);
+  root.style.setProperty("--copy", ligthColors[2]);
 };
 
 ligthMode.addEventListener("click", changeColorsToWhite);
