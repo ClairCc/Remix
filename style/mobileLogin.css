@@ -114,3 +114,70 @@ html {
 .hero3 {
   display: none;
 }
+.guides {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 375px) {
+  .button_figma-register {
+    font-size: 1.8rem;
+    justify-content: center;
+  }
+}
+@media (min-width: 480px) {
+  .button_figma {
+    max-width: 210px;
+  }
+  .button_figma-register {
+    max-width: 320px;
+  }
+}
+@media (min-width: 600px) {
+  .hero_plans {
+    display: flex;
+  }
+  .hero_plans .hero-container {
+    margin: 0 10px;
+  }
+  .send_form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .send_form input {
+    margin-bottom: 0;
+    margin: 0 8px;
+  }
+}
+@media (min-width: 768px) {
+  .hero_plans .hero-container {
+    width: 208px;
+  }
+  .hero {
+    padding: 50px;
+  }
+  .guides {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 24px;
+  }
+  .hero_input {
+    width: 250px;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    margin: 40px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header {
+    width: 100%;
+  }
+  .hero {
+    width: 580px;
+  }
+}

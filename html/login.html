@@ -46,22 +46,28 @@
         Esto tomará menos de un minuto, usamos esta información para
         personalizar Remix para usted;
       </p>
-      <article class="hero-container">
-        <div class="hero_type">
-          <h2>Uso Personal</h2>
-          <input type="checkbox" />
-        </div>
-        <p>Estoy usando esto para un equipo de &#60; 2.</p>
-      </article>
-      <article class="hero-container">
-        <div class="hero_type">
-          <h2>Uso Corporativo</h2>
-          <input type="checkbox" />
-        </div>
-        <p>Estoy usando esto para un equipo de &#62; 2.</p>
-      </article>
-      <button class="hero_back button_figma back">Anterior</button
-      ><button class="hero_next button_figma next" id="next1">Siguiente</button>
+      <div class="hero_plans">
+        <article class="hero-container">
+          <div class="hero_type">
+            <h2>Uso Personal</h2>
+            <input type="checkbox" />
+          </div>
+          <p>Estoy usando esto para un equipo de &#60; 2.</p>
+        </article>
+        <article class="hero-container">
+          <div class="hero_type">
+            <h2>Uso Corporativo</h2>
+            <input type="checkbox" />
+          </div>
+          <p>Estoy usando esto para un equipo de &#62; 2.</p>
+        </article>
+      </div>
+      <section class="guides">
+        <button class="hero_back button_figma back">Anterior</button
+        ><button class="hero_next button_figma next" id="next1">
+          Siguiente
+        </button>
+      </section>
       <article class="copy">© 2021 Remix. All Rights Reserved.</article>
     </main>
     <main class="hero hero2">
@@ -78,8 +84,13 @@
         <figure><img src="../Assets/figma-logo.svg" alt="" /></figure>
         Vincular cuenta Figma
       </button>
-      <button class="hero_back button_figma back" id="anterior">Anterior</button
-      ><button class="hero_next button_figma next" id="next2">Siguiente</button>
+      <section class="guides">
+        <button class="hero_back button_figma back" id="anterior">
+          Anterior</button
+        ><button class="hero_next button_figma next" id="next2">
+          Siguiente
+        </button>
+      </section>
       <article class="copy">© 2021 Remix. All Rights Reserved.</article>
     </main>
     <main class="hero hero3">
@@ -92,23 +103,27 @@
         Ingrese su dirección de correo electrónico a continuación y haga clic en
         Enviar código para verificarlo.
       </p>
-      <form action="">
-        <label for="email">
-          <input
-            class="hero_input"
-            type="email"
-            id="email"
-            placeholder="Ingresa tu email"
-          />
-        </label>
-      </form>
-      <button class="button_figma">
-        <figure><img src="../Assets/Send.svg" alt="" /></figure>
-        Enviar codigo
-      </button>
-      <button class="hero_back button_figma back" id="anterior2">
-        Anterior</button
-      ><button class="hero_next button_figma next">Siguiente</button>
+      <section class="send_form">
+        <form action="">
+          <label for="email">
+            <input
+              class="hero_input"
+              type="email"
+              id="email"
+              placeholder="Ingresa tu email"
+            />
+          </label>
+        </form>
+        <button class="button_figma">
+          <figure><img src="../Assets/Send.svg" alt="" /></figure>
+          Enviar codigo
+        </button>
+      </section>
+      <section class="guides">
+        <button class="hero_back button_figma back" id="anterior2">
+          Anterior</button
+        ><button class="hero_next button_figma next">Siguiente</button>
+      </section>
       <article class="copy">© 2021 Remix. All Rights Reserved.</article>
     </main>
 
